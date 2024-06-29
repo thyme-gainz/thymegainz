@@ -1,0 +1,161 @@
+
+.CTA-Section {
+  text-align: center;
+  margin: 25px 0px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  background-color: #E4DBF2;
+}
+
+.CTA-Section .Container {
+  padding: 20px;
+  align-items: center;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.Content {
+  margin-bottom: 20px;
+}
+
+.CTA-Section h2 {
+  font-family: Syncopate;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.CTA-Section p {
+  font-family: Stint Ultra Expanded;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
+  padding-right: 30px;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.image-container img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #AFC0E3;
+  padding: 7px;
+}
+
+.image-container .btn {
+  width: 115px;
+  font-family: Stint Ultra Expanded;
+  padding: 5px 10px;
+  background-color: #E4DBF2;
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+  border-width: 1px;
+  font-size: 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+.image-container .btn:hover {
+  background-color: #F8F5FE;
+  color: black;
+  border-color: black;
+}
+
+/* Book Reviews */
+
+.mirrored-section h3 {
+  font-family: Syncopate;
+  color: #0141A3;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.mirrored-section {
+  margin: 25px 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.mirrored-section .container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-content, .right-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+    margin: 15px 75px;
+  padding: 20px;
+  background-color: #E4DBF2;
+}
+
+.left-content img, .right-content img {
+  width: 150px; /* Adjust image width as needed */
+  margin-right: 30px;
+}
+
+.left-content .text, .right-content .text {
+  text-align: center;
+}
+
+.left-content .text h3, .right-content .text h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: Syncopate;
+  color: black;
+}
+
+.left-content .text p, .right-content .text p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: Stint Ultra Expanded;
+  color: black;
+}
+
+.btn {
+  font-family: Stint Ultra Expanded;
+  padding: 10px 20px;
+  background-color: #99B0DB;
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+  border-width: 1.5px;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0141A3;
+  color: #F8F5FE;
+  border-color: #7D9BD1;
+}

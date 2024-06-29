@@ -1,0 +1,77 @@
+
+.NavBarBackground {
+  position: absolute;
+  top: 0px; /* Match this to .NavBar's margin */
+  left: 0px; /* Match this to .NavBar's margin */
+  right: 0px; /* Match this to .NavBar's margin */
+  height: 125px; /* Adjust this to match the height of .NavBar */
+  background-color: #0141A3; /* Adjust color and opacity */
+  border-bottom: 5px double #F8F5FE;
+  z-index: 1; /* Behind .NavBar which has z-index: 2 */
+}
+
+.NavBar {
+  background-image: linear-gradient(to right, #E7D6FF, #F6F2FE, #E7D6FF, #F8F5FE, #E7D6FF);
+  margin: 15px 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: auto;
+}
+
+.Logo {
+  padding-left: 30px;
+  height: 39px;
+}
+
+.NavLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.NavLinks li {
+  display: relative;
+  margin-left: 20px;
+  font-family: Syncopate;
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.NavLinks li:first-child {
+  margin-left: 0;
+}
+
+.NavLinks a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.NavLinks a:hover {
+  color: #0141A3;
+}
+
+.NavLinks li:first-child a {
+  color: #7D9BD1;
+  -webkit-text-stroke-color: #0141A3;
+  -webkit-text-stroke-width: 1px;
+}
+
+.NavLinks li:first-child a:hover {
+  color: #0141A3;
+}

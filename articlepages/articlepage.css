@@ -1,0 +1,271 @@
+
+/* NavBar Here */
+
+.NavBarBackground {
+  position: absolute;
+  top: 0px; /* Match this to .NavBar's margin */
+  left: 0px; /* Match this to .NavBar's margin */
+  right: 0px; /* Match this to .NavBar's margin */
+  height: 100px; /* Adjust this to match the height of .NavBar */
+  background-color: #0141A3; /* Adjust color and opacity */
+  z-index: 1; /* Behind .NavBar which has z-index: 2 */
+}
+
+.NavBar {
+  background-image: linear-gradient(to right, #E7D6FF, #F6F2FE, #E7D6FF, #F8F5FE, #E7D6FF);
+  margin: 15px 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: auto;
+}
+
+.Logo {
+  padding-left: 30px;
+  height: 39px;
+}
+
+.NavLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.NavLinks li {
+  display: relative;
+  margin-left: 20px;
+  font-family: Syncopate;
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.NavLinks li:first-child {
+  margin-left: 0;
+}
+
+.NavLinks a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.NavLinks a:hover {
+  color: #0141A3;
+}
+
+.NavLinks li:nth-child(3) a {
+  color: #7D9BD1;
+  -webkit-text-stroke-color: #0141A3;
+  -webkit-text-stroke-width: 1px;
+}
+
+.NavLinks li:nth-child(3) a:hover {
+  color: #0141A3;
+}
+
+/* Hero Section Here*/
+
+.A-HeroSection {
+  background-color: #0141A3;
+  height: 400px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.A-HeroContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.A-HeroContainer h1 {
+  text-align: center;
+  margin-top: 30px;
+  padding: 0px 250px;
+  font-size: 30px;
+  font-family: Syncopate;
+  color: #F8F5FE;
+}
+
+.Search-Bar {
+  margin-top: 70px;
+  justify-content: center;
+  padding: 0px 20px;
+  background-color: #F8F5FE;
+  height: 65px;
+  width: 650px;
+  border-radius: 20px;
+}
+
+.Search-Bar p {
+  font-family: Stint Ultra Expanded;
+  color: #7D9BD1;
+}
+
+/* Articles Section Here */
+
+.ArticleGrid-Section {
+  margin: 15px 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.ArticleGrid-Container {
+padding: 15px
+}
+
+.ArticleGrid-Container h2 {
+  font-family: Syncopate;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.A-Grids {
+display: grid;
+grid-template-columns: repeat(3, auto);
+justify-content: center;
+}
+
+.A-Card {
+padding: 15px;
+margin: 15px;
+background-color: #AFC0E3;
+border-radius: 10px;
+}
+
+.tag {
+  margin: 20px 10px;
+  background-color: #E4DBF2;
+  padding: 0px 10px;
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.tag p {
+  font-size: 12px;
+  font-family: Stint Ultra Expanded;
+}
+
+.A-text {
+  font-family: Stint Ultra Expanded;
+  font-size: 14px;
+  margin: 15px 10px;
+  text-align: left;
+}
+
+.A-Card h2 {
+  font-family: Stint Ultra Expanded;
+  font-size: 16px;
+  margin: 15px 10px;
+  text-align: left;
+  color: black;
+}
+
+.A-Button {
+  margin: 15px 0px;
+  background-color: #AFC0E3;
+  border: none;
+  font-family: Stint Ultra Expanded;
+  cursor: pointer;
+}
+
+/* A-Feature Section Here */
+
+.A-FeatureSection {
+  background-color: #E4DBF2;
+}
+
+.A-FeatureContainer {
+padding: 55px 225px;
+align-items: center;
+text-align: center;
+}
+
+.A-FeatureContainer p {
+  font-family: Syncopate;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 0.75px;
+}
+
+/* Form Section Here */
+
+
+.FormSection {
+  margin: 15px 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.FormContainer {
+  padding: 20px 30px;
+  max-width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FormContainer h3 {
+font-family: Syncopate;
+font-weight: normal;
+font-size: 17px;
+}
+
+.Form-Img {
+  max-width: 50%;
+  text-align: center;
+}
+
+.Form-Img img {
+  height: 300px;
+  width: auto;
+}
+
+.Form-Content {
+  max-width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Form {
+  margin: 10px 0px;
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #7D9BD1;
+  border-radius: 10px;
+}
+
+.Form p {
+  padding: 5px;
+  border-bottom: 1px solid #7D9BD1;
+  font-family: Syncopate;
+  font-size: 16px;
+}

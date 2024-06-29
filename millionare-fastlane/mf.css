@@ -1,0 +1,250 @@
+
+.SummarySection {
+  margin: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: 0px solid black;
+  text-align: center; /* Align buttons in the center */
+}
+
+/* Top Buttons Here */
+
+.ButtonContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Center content horizontally */
+}
+
+.Button {
+  font-family: Stint Ultra Expanded;
+  padding: 10px 20px;
+  background-color: #AFC0E3;
+  color: black;
+  border: 0px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 10px; /* Add margin between buttons */
+}
+
+.Button:hover {
+  background-color: #99B0DB;
+  color: #F8F5FE;
+}
+
+/* L-HeroSection Here */
+
+.L-HeroContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.BuyButton {
+  font-family: Stint Ultra Expanded;
+  font-size: 14px;
+  padding: 10px 15px;
+  background-color: #99B0DB;
+  color: black;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 10px; /* Add margin between buttons */
+}
+
+.BuyButton:hover {
+  background-color: #0141A3;
+  color: #F8F5FE;
+}
+
+.Image {
+  flex: 1; /* Take up one-third of the container width */
+  margin: 15px; /* Add spacing between image and text */
+}
+
+.Image img {
+  padding-left: 0px;
+  max-width: auto; /* Ensure image does not exceed container width */
+  height: 320px; /* Maintain aspect ratio */
+}
+
+.L-Title {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.L-Title h1 {
+  text-align: left;
+  font-family: Seymour One;
+  font-size: 39px;
+}
+
+.L-Title h3 {
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: normal;
+}
+
+/* Summary Here */
+
+.S-Container {
+  margin: 15px 20px;
+  padding: 25px 10px;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  text-align: left; /* Align text to the left */
+}
+
+.S-H2Main {
+  font-size: 20px;
+  font-family: Seymour One;
+  padding-bottom: 10px;
+ font-weight: normal; 
+}
+
+.S-H2{
+  font-size: 17px;
+  font-family: Seymour One;
+  line-height: 18px;
+ font-weight: normal;
+}
+
+.Text p{
+  font-size: 19px;
+  font-family: Montserrat;
+  line-height: 22px;
+}
+
+/* Quote Here */
+
+.QuoteContainer {
+  background-color: #E4DBF2;
+  border: 1px solid #99B0DB;
+  border-radius: 10px;
+  margin: 50px 130px;
+  padding: 15px;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.QuoteImage {
+  flex: 1; /* Take up one-third of the container width */
+  margin-right: -100px; /* Add spacing between image and text */
+  margin-left: -130px;
+}
+
+.QuoteImage img {
+  align-self: center;
+  padding-left: 0px;
+  max-width: auto; /* Ensure image does not exceed container width */
+  height: 60px; /* Maintain aspect ratio */
+}
+
+.Quote {
+  font-weight: normal;
+  padding-left: 7px;
+  border-left: 2px solid #0141A3;
+  font-size: 15px;
+  font-family: Syncopate;
+  flex: 2; /* Take up two-thirds of the container width */
+  text-align: left; /* Align text to the left */
+}
+
+/* Memorable Phrases Here */
+
+.PhrasesContainer {
+text-align: left;
+margin: 50px 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #99B0DB;
+}
+
+.PhrasesContainer h2 {
+  font-family: Seymour One;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.PhrasesContainer p {
+  font-family: Montserrat;
+  font-size: 19px;
+}
+
+/* Notes Here */
+
+.notesh2 {
+  font-family: Seymour One;
+  color: #0141A3;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 0px;
+margin-bottom: 10px;
+}
+
+details {
+  user-select: none;
+}
+
+details>summary span.icon {
+  width: 24px;
+  height: 20px;
+  transition: all 0.2s;
+  margin-left: auto;
+}
+
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  background-color: #E4DBF2;
+  padding: 10px 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 20px;
+  text-align: left;
+  font-weight: normal;
+  font-family: Syncopate;
+  color: #000000;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 1px;
+  display: flex;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+
+.list {
+  padding: 5px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 20px;
+  font-family: Montserrat;
+  font-size: 19px;
+  text-decoration: none;
+  line-height: 20px;
+  text-align: left;
+}
+
+.p-indent {
+  padding-left: 40px;
+  padding-bottom: 10px;
+}

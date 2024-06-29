@@ -1,0 +1,121 @@
+
+.Blog-Section {
+  margin: 25px 30px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.Blog-Section .Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.Content {
+  text-align: center;
+}
+
+.Content h1 {
+  font-family: Syncopate;
+  color: #0141A3;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.Content h3 {
+  color: black;
+  font-family: Stint Ultra Expanded;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.Box {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+}
+
+.Articles {
+  width: 240px;
+  height: 430px;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center; 
+  padding: 29px;
+  margin: 0px 30px;
+  border: 2px solid #0141A3;
+  border-radius: 17px;
+  background-color: #F8F5FE;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.Articles img {
+  margin: 0px 0px;
+  width: auto;
+  height: 150px;
+}
+
+.tag {
+  margin: 20px 10px;
+  background-color: #E4DBF2;
+  padding: 0px 10px;
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.tag p {
+  font-size: 12px;
+  font-family: Stint Ultra Expanded;
+}
+
+.A-text {
+  font-family: Stint Ultra Expanded;
+  font-size: 14px;
+  margin: 15px 10px;
+  text-align: left;
+}
+
+.Box h2 {
+  font-family: Stint Ultra Expanded;
+  font-size: 16px;
+  margin: 15px 10px;
+  text-align: left;
+  color: black;
+}
+
+.A-Button {
+  margin: 15px 0px;
+  background-color: #F8F5FE;
+  border: none;
+  font-family: Stint Ultra Expanded;
+  cursor: pointer;
+}
+
+.Blog-Button {
+  font-family: Stint Ultra Expanded;
+  padding: 10px 20px;
+  background-color: #99B0DB;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+  cursor: pointer; 
+  align-self: center;
+}
+
+.Blog-Button:hover {
+  background-color: #0141A3;
+  color: #F8F5FE;
+  border-color: #7D9BD1;
+}
